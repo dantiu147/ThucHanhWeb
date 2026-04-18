@@ -20,7 +20,7 @@ import models from "../../modelData/models";
 function UserPhotos() {
   const { userId } = useParams();
   const photos = models.photoOfUserModel(userId);
-  // vừa thử
+  // vừa thử oke chưa
   return (
     <div className="user-photos-container">
       {photos.map((photo) => (
